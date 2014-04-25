@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!-- saved from url=(0087)http://joshldavis.com/2014/01/19/github-university-how-college-assignments-should-work/ -->
+<html><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Looking at how to use GitHub for college programming assignments and how to simplify the workflow.">
+        <meta name="author" content="Josh Davis">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="GitHub + University: How College Coding Assignments Should Work - Josh Davis">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://joshldavis.com/img/me.png">
+        <meta property="og:url" content="http://joshldavis.com/2014/01/19/github-university-how-college-assignments-should-work/">
+        <meta property="og:description" content="Looking at how to use GitHub for college programming assignments and how to simplify the workflow.">
+
+        <title>GitHub + University: How College Coding Assignments Should Work - Josh Davis</title>
+
+        <link rel="alternate" type="application/rss+xml" title="Josh Davis&#39;s Personal Site" href="http://joshldavis.com/atom.xml">
+    
+        <link href="base.css" rel="stylesheet" type="text/css">
+    
+        <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+        <link href="css" rel="stylesheet" type="text/css">
+    
+    
+        
+        <link href="lightbox.css" rel="stylesheet" type="text/css">
+        
+    
+    <style type="text/css"></style></head>
+
+    <body>
+        <div class="container">
+            <button class="nav js-mobile">
+                <i class="icon-reorder"></i>
+            </button>
+            <div class="side">
+                <div class="logo">
+                    <img src="rocket.png" class="rocket" alt="My cat, Rocket">
+                    <img src="me.png" class="josh" alt="Josh Davis">
+                </div>
+
+                <h2>Josh Davis</h2>
+
+                <div class="paragraphs">
+                    <p>
+                        I'm a Computer Science major that is graduating in May.
+                        I will be working on <a href="https://aws.amazon.com/">AWS</a>
+                        at Amazon in Seattle this upcoming July.
+                    </p>
+                    <p>
+                        I like to learn, pet kittens, and wear fluffy socks.
+                    </p>
+                    <p>
+                        <a href="http://joshldavis.com/2013/08/31/never-save-anything-for-the-swim-back/">I never save anything
+                            for the swim back</a>.
+                    </p>
+                </div>
+
+                <ul>
+                    <li><a href="http://joshldavis.com/">Home</a></li>
+                    <li><a href="http://joshldavis.com/posts/">Posts</a></li>
+                    <li><a href="http://joshldavis.com/projects/">Projects</a></li>
+                    <li><a href="http://joshldavis.com/about/">About</a></li>
+                    <li><a href="http://joshldavis.com/about/#contact">Contact</a></li>
+                    <li><a href="http://joshldavis.com/atom.xml">RSS <i class="icon-rss"></i></a></li>
+                </ul>
+
+                <p class="profiles">
+                    <a title="GitHub" href="https://github.com/jdavis"><i class="icon-github-sign"></i></a>
+                    <a title="Twitter" href="https://twitter.com/HopefulJosh"><i class="icon-twitter-sign"></i></a>
+                    <a title="Facebook" href="https://www.facebook.com/joshd"><i class="icon-facebook-sign"></i></a>
+                    <a title="Google+" href="https://www.google.com/+JoshDavis9"><i class="icon-google-plus-sign"></i></a>
+                    <a title="LinkedIn" href="https://www.linkedin.com/in/joshualeedavis"><i class="icon-linkedin-sign"></i></a>
+                </p>
+            </div>
+
+            <div class="wrap">
+                <div class="content">
+                    <h4>19 January 2014</h4>
+
+<h1>GitHub + University: How College Coding Assignments Should Work</h1>
+
+<p>This semester (Spring 2014), I'm a Teaching Assistant (TA) for a course that I
+took last semester called "Principles of Programming Languages." It was a very
+enjoyable class and I have always been interested in programming languages. I
+felt that being a TA would be a great way to explore the learning process and
+subject matter more deeply.</p>
+
+<h2>An Idea</h2>
+
+<p>Through out my entire college career, all programming assignments have had to be
+submitted through <a href="http://www.blackboard.com/">BlackBoard</a>. To be as diplomatic as possible, BlackBoard
+does a lot of things to help students &amp; teachers. Unfortunately it does not do a
+single one of them well.</p>
+
+<p>The normal way to submit coding assignments is to have homework assigned through
+BlackBoard and to have to code up the solutions and then zip them up and submit
+them using the web interface.</p>
+
+<h3>BlackBoard Issues</h3>
+
+<p>There are many different issues with this.</p>
+
+<ol>
+<li><p>The first and most obvious is that it is tedious for each party (TA &amp; the
+student) to zip and extract code.</p></li>
+<li><p>It can't be automated (painlessly). BlackBoard has a series of iframes that
+make it incredibly hard to automate submission or retrieval of homework.</p></li>
+<li><p>Code should not be stored in zip files anymore. Distributing code is a solved
+problem by using version control systems.</p></li>
+</ol>
+
+
+<h2>GitHub to the Rescue</h2>
+
+<p><a href="http://www.cs.iastate.edu/~lorand/">Lorand</a>, one of the other TA's, and I both came to the conclusion that
+using <a href="https://github.com/">GitHub</a> would be an interesting experiment. We were both very
+experienced with using Git as well as GitHub so we wanted to brainstorm how we
+could get a class of considerable size to do this.</p>
+
+<p>The great part is that GitHub provides plenty of opportunities for students and
+teachers to get free access to normally pay-only features though the <a href="https://education.github.com/">GitHub
+Education</a> section.</p>
+
+<p>Using this, the professor reached out to GitHub and was able to setup an
+Organization with 125 private repositories for free.</p>
+
+<p>After typing up a little README with the course info, a guide to using Git +
+GitHub, as well as shamelessly stealing the <a href="http://en.wikipedia.org/wiki/Half-Life_(video_game)">Half-Life</a> logo, we had an
+organization that was ready for the semester: <a href="https://github.com/ComS342-ISU">ComS342-ISU</a>.</p>
+
+<h2>Setting It Up</h2>
+
+<p>The first obstacle was that we wanted each student to have a private repository
+that would contain all their solutions in individual folders. We wanted the
+repositories to be only visible to the student it belonged to as well as the
+TA's and instructor.</p>
+
+<p>I knew that I would never want to individually create 50+ repositories and setup
+the correct push/pull access so I turned to <a href="http://developer.github.com/v3/">GitHub's API</a> +
+<a href="http://nodejs.org/">NodeJS</a>.</p>
+
+<h3>Automating Using the API</h3>
+
+<p>It only took a few hours but within short time I had a very simple web
+application that would allow the student to connect using their GitHub account
+through GitHub's OAuth.</p>
+
+<div class="gallery xlarge">
+    <a href="app0.png" rel="lightbox[bad]" title="Step one of the app">
+        <img src="app0.png" height="250">
+        <span>Signing in with GitHub</span>
+    </a>
+
+    <a href="app1.png" rel="lightbox[bad]" title="Step two of the app">
+        <img src="app1.png" height="250">
+        <span>Joining the Class</span>
+    </a>
+
+    <a href="app2.png" rel="lightbox[bad]" title="Step three of the app">
+        <img src="app2.png" height="250">
+        <span>Successfully enrolling</span>
+    </a>
+</div>
+
+
+<p>The application would then ask for their University login, check that they are
+actually registered for the class, and then automagically create a new private
+repository for them in the form <code>hw-answers-&lt;id&gt;</code> and add them to the Students
+team.</p>
+
+<p>In addition to the creating of the repositories, I also made a script to check
+to see what students aren't in the class that are currently registered and to
+automatically remind them that they need to register as soon as possible.</p>
+
+<h3>Source Code</h3>
+
+<p>After the class is finished, I'll make the code to this little bot available on
+my <a href="https://github.com/jdavis">GitHub</a>.</p>
+
+<h3>How We Are Using the Repos</h3>
+
+<p>We have a few different repositories that we are using. The first repo is the
+only public one and it is the <a href="https://github.com/ComS342-ISU/course-info">course-info</a> repo. It contains the
+syllabus information as well as some basic guides to help the students set
+everything up.</p>
+
+<p>The second repository is private but available for all the students to see. This
+is where we will release homeworks and publish solutions as they become
+available. This is also the repository that students are encouraged to discuss
+within the repositories Issue Tracker. This is replacing the discussion boards
+of the past.</p>
+
+<p>The bulk of our repository usage (roughly 50) is each student's repository to
+contain their answer sheets. These are essentially manual <a href="https://help.github.com/articles/fork-a-repo">Forks</a> of the
+main homework repository from the previous paragraph. The students are
+responsible for <a href="https://help.github.com/articles/syncing-a-fork">syncing</a> their repositories with the official homework
+repository to bring in new homeworks as they are released.</p>
+
+<p>There are a few other repositories like one for the code that I've created for
+the course and the grading infrastructure the other TA has created. We also have
+an internal homework repository that we use to organize all the future homeworks
+and to collaborate.</p>
+
+<h2>Grading &amp; Feedback</h2>
+
+<p>The best part about using GitHub for homework submissions is that it is
+incredibly easy to give feedback and help the students through learning the
+material.</p>
+
+<p>In the past, most feedback/grading is provided back to the student in a little
+.txt file that contains a few comments and the final grade.</p>
+
+<p>With GitHub, we can comment on specific commits, specific lines of code, and see
+how the student progressed through the homework.</p>
+
+<p>It is far more valuable to the student for this kind of interaction. Without
+using GitHub, it would be a lot more difficult because of the time it would
+require to do this.</p>
+
+<p>When it comes to grading, all of our homeworks come with a suite of unit tests
+that test nearly every part of the homework. The students can get immediate
+feedback on how well they are doing.</p>
+
+<p>This also makes it incredibly easy to grade. The other TA has created a bot
+written in Scala that grabs all of the homework repositories and runs the set of
+unit tests. The results are then written to a text file and pushed back to the
+repository.</p>
+
+<p>We the TAs then can see the final status of their tests and then spend the rest
+of the time looking at the code to see why any of the tests failed and how they
+can improve their code.</p>
+
+<p>This cuts out so much time that would be spent downloading zip files, extracting
+them, manually running the tests and so on.</p>
+
+<h2>Ways to Improve</h2>
+
+<p>So far only a week has passed since the semester started so there are a lot of
+unforeseen things that might happen. I'm sure I will think of other ways to
+improve this little system but there are a few major ones that I can see right
+now:</p>
+
+<ol>
+<li><p>Continuous integration would be nice. Like I mentioned, we have to instruct
+the bot to grab the homeworks and test them. It would be great to use
+something like <a href="https://travis-ci.org/">TravisCI</a> to test every commit as it is pushed.</p>
+
+<p>The problem is that the homeworks need to be private but TravisCI is only
+free for open source projects. It would be great if TravisCI provided an
+Educational discount like GitHub.</p></li>
+<li><p>A more formal submission process. Right now we are saying that the code just
+needs to be pushed by the homework deadline. There is nothing that needs to
+be done to actually "submit" their homework.</p>
+
+<p>There are a few issues with this because if a student forges a commit time
+stamp, they can set the date a to be before the deadline and still push the
+code.</p>
+
+<p>We are looking into ways to counter this in the short term. The first that
+comes to my mind is to just run a bot shortly after the deadline to grab the
+SHA-1 HEAD of the master branch and its parent commits for every student's
+repository. This would ensure that any tampering with the git log would be
+noticeable and change the SHA-1s.</p></li>
+</ol>
+
+
+<h2>Going Forward</h2>
+
+<p>Once the semester is finished, I will revisit the topic to see how things turned
+out. I really hope that things go well ^_^.</p>
+
+
+<div class="end">
+    <span>
+        You're awesome for reading this. You should follow me on
+        <a href="https://twitter.com/HopefulJosh">Twitter</a>
+        and
+        <a href="https://www.google.com/+JoshDavis9">Google+</a>.
+        I'm also available on
+        <a href="https://github.com/jdavis">GitHub</a>
+        and
+        <a href="https://www.linkedin.com/in/joshualeedavis">LinkedIn</a>.
+    </span>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" async="" src="ga.js"></script><script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-39545516-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+        <script src="jquery.min.js"></script>
+        <script src="app.js"></script>
+        
+        
+            
+                <script src="jquery.min(1).js" type="text/javascript"></script>
+            
+                <script src="lightbox.js" type="text/javascript"></script>
+            
+        
+    
+
+<div id="lightboxOverlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image"><div class="lb-nav"><a class="lb-prev"></a><a class="lb-next"></a></div><div class="lb-loader"><a class="lb-cancel"><img src="loading.gif"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"><img src="close.png"></a></div></div></div></div></body></html>
